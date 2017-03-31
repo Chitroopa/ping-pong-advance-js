@@ -28,15 +28,6 @@ _{Are there issues that have not yet been resolved that you want to let users kn
 * _**Example Input** : 0_
 * _**Example Output** : Please enter valid number_
 
-* _**Example Input** : &_
-* _**Example Output** : Please enter valid number_
-
-* _**Example Input** : 2.3_
-* _**Example Output** : Please enter valid number_
-
-* _**Example Input** : a_
-* _**Example Output** : Please enter valid number_
-
 * _It can count up to the provided number._
 * _**Example Input** : 3_
 * _**Example Output** : [1,2,3]_
