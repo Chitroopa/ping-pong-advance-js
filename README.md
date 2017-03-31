@@ -46,6 +46,10 @@ _Nil_
 
 _HTML, CSS, Bootstrap, JavaScript and jQuery_
 
+## GitHub page links
+
+https://chitroopa.github.io/Ping-pong/
+
 ### License
 
 Copyright (c) 2017 **_Chitroopa Manikkavasagam_**
