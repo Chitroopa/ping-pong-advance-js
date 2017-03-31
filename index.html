@@ -9,21 +9,50 @@
   </head>
   <body>
     <div class="container">
-      <form id="form1">
+      <div class="heading">
         <h1>Ping pong game</h1>
-        <div class="form-group well">
-          <label for="input">Enter a number</label>
-          <input type="number" class="form-control" id="input">
+      </div>
+      <div class="row row-style">
+        <div class="col-md-8">
+          <div class="thumbnail">
+            <img alt="Background image" src="img/ping9.jpeg" id="img-edit"/>
+            <br>
+            <div class="caption">
+              <h3>Let's Play!</h3>
+              <form id="form1">
+                <div class="form-group">
+                  <label for="input">Enter a number</label>
+                  <input type="number" class="form-control" id="input">
+                </div>
+                <button type="submit" class="btn bg-primary">Play!</button>
+            </form>
+            </div>
+          </div>
         </div>
-        <button type="submit" class="btn bg-info">Play!</button>
-        <br>
-      </form>
-      <div id="result-div" class="well">
-        <h3>Here is the result</h3>
-        <ul id='result'>
-          
-        </ul>
-        <h4 ><h4>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <img alt="Bootstrap Thumbnail Second" src="img/ping1.png" id="img-edit1"/>
+            <div class="caption">
+              <h3>
+                Rules:
+              </h3>
+              <p>Ping pong will count up to your number from 1 with the following expections:</p>
+              <ul>
+                <li>Numbers divisible by 3 are replaced with "ping"</li>
+                <li>Numbers divisible by 5 are replaced with "pong"</li>
+                <li>Numbers divisible by 15 are replaced with "ping-pong"</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row" id="result-div">
+          <div class="col-md-12 well row-style1">
+            <h3>Ping-Pong Result</h3>
+            <ul id='result'>
+
+            </ul>
+            <h4 ><h4>
+          </div>
       </div>
     </div>
   </body>

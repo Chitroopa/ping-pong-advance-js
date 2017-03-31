@@ -4,3 +4,39 @@
 #result {
   list-style: none;
 }
+body {
+  background: #2E4053;
+  min-height: 100%;
+  display: flex;
+}
+h1 {
+ font-size: 5vw;
+}
+.row-style {
+  height: fixed;
+  margin-top: 10%;
+}
+#img-edit {
+  width: 100%;
+  height: 100px;
+}
+#img-edit1 {
+  width: 100%;
+  height: 90px;
+}
+.row-style1{
+ margin-left: 30px;
+}
+.heading {
+  text-align: center;
+  margin-top: 10%;
+  top :0;
+  left :0;
+  background: linear-gradient(to right, #FFF 20%, #FF0 40%, #FF0 60%, #FFF 80%);
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
