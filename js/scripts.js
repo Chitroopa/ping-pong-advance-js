@@ -1,9 +1,17 @@
 var pingpong = function(number)
 {
+  var output = [];
   if (!number || (number < 1))
   {
     alert("Please enter valid number");
   }
+  for(var i=1;i<=number;i++)
+  {
+    output += i;
+
+  }
+console.log(output);
+return output;
 }
 
 $(document).ready(function(){
@@ -13,5 +21,6 @@ $(document).ready(function(){
 
    var result = pingpong(userInput);
    console.log(result);
+
  });
 });
