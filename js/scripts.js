@@ -9,11 +9,15 @@ var pingpong = function(number)
   {
     if(i%3 === 0)
     {
-      output += "ping";
+      output.push("ping");
+    }
+    else if(i%5 === 0)
+    {
+      output.push("pong");
     }
     else
     {
-      output += i;
+      output.push(i);
     }
 
   }
