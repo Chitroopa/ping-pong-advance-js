@@ -7,7 +7,14 @@ var pingpong = function(number)
   }
   for(var i=1;i<=number;i++)
   {
-    output += i;
+    if(i%3 === 0)
+    {
+      output += "ping";
+    }
+    else
+    {
+      output += i;
+    }
 
   }
 console.log(output);
