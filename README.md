@@ -22,23 +22,23 @@ _Nil_
 
 ## Specifications
 
-* Doesn't accept 0, negative number, symbols and floating numbers,alphabets.
+1. Doesn't accept 0, negative number, symbols and floating numbers,alphabets.
 * _**Example Input** : 0_
 * _**Example Output** : Please enter valid number_
 
-* It can count up to the provided number.
+2. It can count up to the provided number.
 * _**Example Input** : 3_
 * _**Example Output** : [1,2,3]_
 
-* Numbers divisible by 3 becomes 'ping'.
+3. Numbers divisible by 3 becomes 'ping'.
 * _**Example Input** : 4_
 * _**Example Output** : [1,2,'ping',4]_
 
-* Numbers divisible by 5 becomes 'pong'.
+4. Numbers divisible by 5 becomes 'pong'.
 * _**Example Input** : 6_
 * _**Example Output** : [1,2,'ping',4,'pong','ping']_
 
-* Numbers divisible by 3 and 5 becomes 'ping-pong'.
+5. Numbers divisible by 3 and 5 becomes 'ping-pong'.
 * _**Example Input** : 16_
 * _**Example Output** : [1,2,'ping',4,'pong','ping',7,8,'ping','pong',11,'ping',13,14,'ping-pong',16]_
 
