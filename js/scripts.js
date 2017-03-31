@@ -30,8 +30,14 @@ return output;
 $(document).ready(function(){
  $("#form1").submit(function(event){
    event.preventDefault();
+   var result = [];
    var userInput = parseInt($("#input").val());
-   var result = pingpong(userInput);
-   $("#result").text(result);
- });
+   result = pingpong(userInput);
+   $("#result").text("");
+   for (var j=0;j<result.length;j++)
+   {
+     $("#result").append('<li>'+result[j]+'</li>');
+   }
+   $("#result-div").show();
+  });
 });
