@@ -42,7 +42,7 @@ _{Are there issues that have not yet been resolved that you want to let users kn
 
 * _Numbers divisible by 3 and 5 becomes 'ping-pong'_
 * _**Example Input** : 16_
-* _**Example Output** : [1,2,'ping',4,'pong','pong',7,8,'ping','pong',11,'ping',13,14,'ping-pong',16]_
+* _**Example Output** : [1,2,'ping',4,'pong','ping',7,8,'ping','pong',11,'ping',13,14,'ping-pong',16]_
 
 
 
