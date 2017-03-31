@@ -27,8 +27,8 @@ _Nil_
     * _**Example Output** : Please enter valid number_
 
 * _It can count up to the provided number._
-    * _**Example Input** : 3_
-    * _**Example Output** : [1,2,3]_
+    * _**Example Input** : 2_
+    * _**Example Output** : [1,2]_
 
 * _Numbers divisible by 3 becomes 'ping'._
     * _**Example Input** : 4_
