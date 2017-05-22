@@ -1,0 +1,15 @@
+{
+  "name": "ping-pong",
+  "description": "#### _Independent project three, 03/31/2015_",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "https://github.com/Chitroopa/Ping-pong",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
