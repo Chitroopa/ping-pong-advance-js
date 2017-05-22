@@ -7,7 +7,7 @@ var utilities = require('gulp-util');
 var del = require('del');
 var buildProduction = utilities.env.production;
 var jshint = require('gulp-jshint');
-
+var browserSync = require('browser-sync')
 
 
 
@@ -41,6 +41,16 @@ gulp.task("build", ['clean'], function(){
     gulp.start('jsBrowserify');
   }
 });
+
+gulp.task("serve", ['build'], function(){
+  browserSync.init({
+    server: {
+      baseDir: "./",
+      index: "index.html"
+    }
+  })
+});
+
 
 gulp.task('jshint', function(){
   return gulp.src(['js/*.js'])
